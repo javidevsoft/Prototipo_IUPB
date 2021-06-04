@@ -1,0 +1,138 @@
+* {
+    background-color: none;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.titulo-design {
+    color: #000000;
+    font-family: Alata;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.subtitulo-design {
+    color: #000000;
+    font-family: Alata;
+    font-size: 15px;
+    font-style: italic;
+}
+
+.container {
+    background-image: url(Backgrounds/IMG00100.png);
+    margin: auto;
+    height: 172px; 
+    width: 500px;
+}
+
+.form-design {
+    border-color: #308903;
+    border-width: 5px;
+    border-style: double;
+    border-radius: 15px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 30px;
+    width: 800px;
+}
+
+.legend-design {
+    font-family: Alata;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.p-design {
+    font-family: Alata;
+    font-size: 18px;
+    margin-top: -10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.label-design {
+    display: inline-block;
+    font-family: Alata;
+    font-size: 15px;
+    width: 265px;
+}
+
+.input-desing {
+    border: 0px;
+    border-bottom: 2px;
+    border-bottom-color: #308903;
+    border-bottom-style: solid;
+    margin: 5px;
+    outline: 0px;
+    height: 25px;
+    width: 450px;
+}
+
+.input-desing::placeholder {
+    color: gray;
+    font-family: Alata;
+    font-style: italic;
+}
+
+.select-design {
+    border: 0px;
+    border-bottom: 2px;
+    border-bottom-color: #308903;
+    border-bottom-style: solid;
+    font-family: Alata;
+    margin: 5px;
+    outline: 0px;
+    height: 25px;
+    width: 450px;
+}
+
+.label-design-textarea {
+    font-family: Alata;
+    font-size: 15px;
+    margin-top: 5px;
+    position: absolute;
+}
+
+.textarea-design {
+    color: gray;
+    border: 2px;
+    border-color: #308903;
+    border-radius: 5px;
+    border-style: solid;
+    font-style: italic;
+    font-family: Alata;
+    margin-left: 275px;
+    margin-top: 5px;
+    height: 150px;
+    width: 450px;
+}
+
+.p-note {
+    font-family: Alata;
+    font-size: 15px;
+    margin-top: 5px;
+    text-align: center; 
+}
+
+.button-design {
+    background-color: #FFFFFF;
+    border: 2px solid #308903;
+    border-radius: 5px;
+    color: #000000;
+    font-family: Alata;
+    font-size: 18px;
+    margin-top: 15px;
+    padding: 5px;
+    text-decoration: none;
+    height: 45px;
+    width: 120px;  
+}
+
+.button-design:hover {
+    background-color: #308903;
+    border: 2px solid #000000;
+    color: #FFFFFF;
+}

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang = "es">
+<head>
+    <meta charset = "UTF-8">
+    <meta http-equiv = "X-UA-Compatible" content = "IE=edge">
+    <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "Styles.css">
+    <link rel = "preconnect" href = "https://fonts.gstatic.com">
+    <link rel = "stylesheet" href = "https://fonts.googleapis.com/css2?family=Alata&display=swap">
+    <title>Radicar PQRSD - Secretaría de Minas</title>
+</head>
+<body>
+    <center><h1 class = "titulo-design">SIGMA</h1></center>
+    <center><h1 class = "subtitulo-design">Sistema de Gestión Minera de Antioquia</h1></center>
+    <div class = "container"></div>
+    <form id = "Radicar PQRSD" action = "#" method = "POST">
+        <fieldset class = "form-design">
+            <legend class = "legend-design">Radicar PQRSD</legend>
+            <section>
+                <p class = "p-design">Campos marcados con (*) de caracter obligatario.</p>
+                <p>
+                    <label for = "Tipo Identificación" class = "label-design" >Tipo de Identificación*:</label>
+                    <select name = "Tipo Identificación" class = "select-design">
+                        <option value = "0" selected hidden>Seleccione una opción</option>
+                        <option value = "1">Cédula de Ciudadanía</option>
+                        <option value = "2">Cédula de Extranjería</option>
+                        <option value = "3">Número de Identificación Tributaria</option>
+                        <option value = "4">Tarjeta de Identidad</option>
+                    </select>
+                </p>
+                <p>
+                    <label for = "Número Identificación" class = "label-design">Número de Identificación*:</label>
+                    <input type = "text" name = "Número Identificación" class = "input-desing" placeholder = "Escriba aquí" required>
+                </p>
+                <p>
+                    <label for = "Primer Nombre" class = "label-design">Primer Nombre*:</label>
+                    <input type = "text" name = "Primer Nombre" class = "input-desing" placeholder = "Escriba aquí" required>
+                </p>
+                <p>
+                    <label for = "Segundo Nombre" class = "label-design">Segundo Nombre*:</label>
+                    <input type = "text" name = "Segundo Nombre" class = "input-desing" placeholder = "Escriba aquí"  required>
+                </p>
+                <p>
+                    <label for = "Primer Apellido" class = "label-design">Primer Apellido*:</label>
+                    <input type = "text" name = "Primer Apellido" class = "input-desing" placeholder = "Escriba aquí" required>
+                </p>
+                <p>
+                    <label for = "Segundo Apellido" class = "label-design">Segundo Apellido*:</label>
+                    <input type = "text" name = "Segundo Apellido" class = "input-desing" placeholder = "Escriba aquí" required>
+                </p>
+                <p>
+                    <label for = "Seleccione País" class = "label-design">Seleccione País*:</label>
+                    <select name = "Seleccione País" class = "select-design">
+                        <option value = "0" selected hidden>Seleccione una opción</option>
+                        <option value = "1">Colombia</option>
+                    </select>
+                </p>
+                <p>
+                    <label for = "Departamento" class = "label-design">Departamento*:</label>
+                    <input type = "text" name = "Departamento" class = "input-desing" placeholder = "Escriba aquí" required>
+                </p>
+                <p>
+                    <label for = "Municipio" class = "label-design">Municipio*:</label>
+                    <input type = "text" name = "Municipio" class = "input-desing" placeholder = "Escriba aquí" required>
+                </p>
+                <p>
+                    <label for = "Seleccione Dependencia" class = "label-design">Seleccione Dependencia*:</label>
+                    <select name = "Seleccione Dependencia" class = "select-design">
+                        <option value = "0" selected hidden>Seleccione una opción</option>
+                        <option value = "1">Fiscalización</option>
+                        <option value = "2">Fomento</option>
+                        <option value = "3">Titulación</option>
+                    </select>
+                </p>
+                <p>
+                    <label for = "Dirección" class = "label-design">Dirección*:</label>
+                    <input type = "text" name = "Dirección" class = "input-desing" placeholder = "Escriba aquí" required>
+                </p>
+                <p>
+                    <label for = "Teléfono" class = "label-design">Teléfono:</label>
+                    <input type = "text" name = "Teléfono" class = "input-desing" placeholder = "Escriba aquí" required>
+                </p>
+                <p>
+                    <label for = "Celular" class = "label-design">Celular*:</label>
+                    <input type = "text" name = "Celular" class = "input-desing" placeholder = "Escriba aquí" required>
+                </p>
+                <p>
+                    <label for = "Correo Electrónico" class = "label-design">Correo Electrónico*:</label>
+                    <input type = "email" name = "Correo Electrónico" class = "input-desing" placeholder = "Escriba aquí" required>
+                </p>
+                <p>
+                    <label for = "Medio de Respuesta" class = "label-design">Medio de Respuesta*:</label>
+                    <select name = "Medio de Respuesta" class = "select-design">
+                        <option value = "0" selected hidden>Seleccione una opción</option>
+                        <option value = "1">Correo Electrónico</option>
+                        <option value = "2">Correo Certificado</option>
+                    </select>
+                </p>
+                <p>
+                    <label for = "Tipo de Solicitud" class = "label-design">Tipo de Solicitud*:</label>
+                    <select name = "Tipo de Solicitud" class = "select-design">
+                        <option value = "0" selected hidden>Seleccione una opción</option>
+                        <option value = "1">Petición</option>
+                        <option value = "2">Queja</option>
+                        <option value = "3">Reclamo</option>
+                        <option value = "4">Sugerencia</option>
+                        <option value = "5">Solicitud</option>
+                        <option value = "6">Felicitación</option>
+                        <option value = "7">Denuncia</option>
+                        <option value = "8">Solicitud de Información</option>
+                    </select>
+                </p>
+                <p>
+                    <label for = "Contenido de la Solicitud" class = "label-design-textarea">Redacte el Contenido de la Solicitud*:</label>
+                    <textarea name = "Contenido de la Solicitud" rows = "4" cols = "40" class = "textarea-design" 
+                    placeholder = "Contenido de la Solicitud"></textarea>
+                </p>
+                <p class = "p-note">Nota: Por favor verifique que la solicitud sea clara y concisa antes de proseguir con el envío de la misma.</p>
+                <center><p><button name = "Enviar" type = "submit" class = "button-design">Enviar</button></p></center>
+            </section>
+        </fieldset>
+    </form> 
+</body>
+</html>
